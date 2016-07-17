@@ -43,12 +43,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\RealWorld\DrawingElement.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\RealWorld\DrawingElementTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\Structural\Component.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\Structural\ComponentTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Abstract\RealWorld\ContinentFactory.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Abstract\RealWorld\TestContinentFactory.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Abstract\Structural\AbstractFactory.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Abstract\Structural\TestAbstractFactory.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Builder\RealWorld\Shop.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Builder\RealWorld\ShopTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Builder\Structural\Builder.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Builder\Structural\BuilderTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Factory\RealWorld\PageFactory.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Factory\RealWorld\PageFactoryTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Factory\Structural\Factory.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Factory\Structural\FactoryTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Prototype\RealWorld\ColorPrototype.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Prototype\RealWorld\ColorPrototypeTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Prototype\Structural\Prototype.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Prototype\Structural\PrototypeTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Singleton\RealWorld\LoadBalancer.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Singleton\RealWorld\LoadBalancerTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Singleton\Structural\Singleton.cs" />
+    <Compile Include="DoFactory\GangOfFour\CreationalPatterns\Singleton\Structural\SingletonTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Adapter\RealWorld\Compound.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Adapter\RealWorld\CompoundTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Adapter\Structural\Adapter.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Adapter\Structural\AdapterTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Bridge\RealWorld\Customers.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Bridge\RealWorld\CustomersTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Bridge\Structural\Bridge.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Bridge\Structural\BridgeTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Decorator\RealWorld\LibraryItem.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Decorator\RealWorld\LibraryItemTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Decorator\Structural\AbstractComponent.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Decorator\Structural\AbstractComponentTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
