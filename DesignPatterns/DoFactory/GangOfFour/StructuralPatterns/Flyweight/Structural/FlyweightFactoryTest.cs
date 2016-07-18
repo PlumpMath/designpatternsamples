@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight
+namespace DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight.Structural
 {
     public class FlyweightFactoryTest
     {

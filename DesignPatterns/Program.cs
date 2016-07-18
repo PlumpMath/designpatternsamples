@@ -18,7 +18,10 @@ using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Decorator.RealWorld
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Decorator.Structural;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.Structural;
-using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight.RealWorld;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight.Structural;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Proxy.RealWorld;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Proxy.Structural;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -93,6 +96,15 @@ namespace DesignPatterns
 
             FlyweightFactoryTest flyweightFactoryTest = new FlyweightFactoryTest();
             flyweightFactoryTest.Test();
+
+            CharacterFactoryTest characterFactoryTest = new CharacterFactoryTest();
+            characterFactoryTest.Test();
+
+            ProxyTest proxyTest = new ProxyTest();
+            proxyTest.Test();
+
+            MathProxyTest mathProxyTest = new MathProxyTest();
+            mathProxyTest.Test();
 
             Console.ReadKey();
         }
