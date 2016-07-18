@@ -1,4 +1,5 @@
-﻿using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.RealWorld;
+﻿using DesignPatterns.DoFactory.GangOfFour.BehavioralPatterns.ChainOfResponsibility.Structural;
+using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.Structural;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Builder.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Builder.Structural;
@@ -93,6 +94,9 @@ namespace DesignPatterns
 
             FlyweightFactoryTest flyweightFactoryTest = new FlyweightFactoryTest();
             flyweightFactoryTest.Test();
+
+            HandlerTest handlerTest = new HandlerTest();
+            handlerTest.Test();
 
             Console.ReadKey();
         }

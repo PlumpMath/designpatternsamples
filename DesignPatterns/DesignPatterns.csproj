@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\ChainOfResponsibility\Structural\Handler.cs" />
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\ChainOfResponsibility\Structural\HandlerTest.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\RealWorld\DrawingElement.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\RealWorld\DrawingElementTest.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\Structural\Component.cs" />
