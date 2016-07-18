@@ -79,6 +79,12 @@
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Decorator\RealWorld\LibraryItemTest.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Decorator\Structural\AbstractComponent.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Decorator\Structural\AbstractComponentTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Facade\RealWorld\Mortgage.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Facade\RealWorld\MortgageTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Facade\Structural\Facade.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Facade\Structural\FacadeTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Flyweight\FlyweightFactory.cs" />
+    <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Flyweight\FlyweightFactoryTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

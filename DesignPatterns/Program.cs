@@ -16,6 +16,9 @@ using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Composite.RealWorld
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Composite.Structural;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Decorator.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Decorator.Structural;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.RealWorld;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.Structural;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -81,6 +84,15 @@ namespace DesignPatterns
 
             LibraryItemTest libraryItemTest = new LibraryItemTest();
             libraryItemTest.Test();
+
+            FacadeTest facadeTest = new FacadeTest();
+            facadeTest.Test();
+
+            MortgageTest mortgageTest = new MortgageTest();
+            mortgageTest.Test();
+
+            FlyweightFactoryTest flyweightFactoryTest = new FlyweightFactoryTest();
+            flyweightFactoryTest.Test();
 
             Console.ReadKey();
         }
