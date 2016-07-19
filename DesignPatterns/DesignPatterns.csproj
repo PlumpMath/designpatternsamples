@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\ChainOfResponsibility\RealWorld\Approver.cs" />
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\ChainOfResponsibility\RealWorld\ApproverTest.cs" />
     <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\ChainOfResponsibility\Structural\Handler.cs" />
     <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\ChainOfResponsibility\Structural\HandlerTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\Command\RealWorld\User.cs" />
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\Command\RealWorld\UserTest.cs" />
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\Command\Structural\Command.cs" />
+    <Compile Include="DoFactory\GangOfFour\BehavioralPatterns\Command\Structural\CommandTest.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\RealWorld\DrawingElement.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\RealWorld\DrawingElementTest.cs" />
     <Compile Include="DoFactory\GangOfFour\StructuralPatterns\Composite\Structural\Component.cs" />

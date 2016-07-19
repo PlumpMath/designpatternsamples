@@ -1,4 +1,7 @@
-﻿using DesignPatterns.DoFactory.GangOfFour.BehavioralPatterns.ChainOfResponsibility.Structural;
+﻿using DesignPatterns.DoFactory.GangOfFour.BehavioralPatterns.ChainOfResponsibility.RealWorld;
+using DesignPatterns.DoFactory.GangOfFour.BehavioralPatterns.ChainOfResponsibility.Structural;
+using DesignPatterns.DoFactory.GangOfFour.BehavioralPatterns.Command.RealWorld;
+using DesignPatterns.DoFactory.GangOfFour.BehavioralPatterns.Command.Structural;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.Structural;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Builder.RealWorld;
@@ -20,6 +23,7 @@ using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Decorator.Structura
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.Structural;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight.Structural;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -97,6 +101,15 @@ namespace DesignPatterns
 
             HandlerTest handlerTest = new HandlerTest();
             handlerTest.Test();
+
+            ApproverTest approverTest = new ApproverTest();
+            approverTest.Test();
+
+            CommandTest commandTest = new CommandTest();
+            commandTest.Test();
+
+            UserTest userTest = new UserTest();
+            userTest.Test();
 
             Console.ReadKey();
         }
