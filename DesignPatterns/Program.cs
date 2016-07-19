@@ -1,4 +1,5 @@
-﻿using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.RealWorld;
+﻿using DesignPatterns.DoFactory.GangOfFour.BehavioralPatterns.ChainOfResponsibility.Structural;
+using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Abstract.Structural;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Builder.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.CreationalPatterns.Builder.Structural;
@@ -18,10 +19,7 @@ using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Decorator.RealWorld
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Decorator.Structural;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.RealWorld;
 using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Facade.Structural;
-using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight.RealWorld;
-using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight.Structural;
-using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Proxy.RealWorld;
-using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Proxy.Structural;
+using DesignPatterns.DoFactory.GangOfFour.StructuralPatterns.Flyweight;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -97,14 +95,8 @@ namespace DesignPatterns
             FlyweightFactoryTest flyweightFactoryTest = new FlyweightFactoryTest();
             flyweightFactoryTest.Test();
 
-            CharacterFactoryTest characterFactoryTest = new CharacterFactoryTest();
-            characterFactoryTest.Test();
-
-            ProxyTest proxyTest = new ProxyTest();
-            proxyTest.Test();
-
-            MathProxyTest mathProxyTest = new MathProxyTest();
-            mathProxyTest.Test();
+            HandlerTest handlerTest = new HandlerTest();
+            handlerTest.Test();
 
             Console.ReadKey();
         }
